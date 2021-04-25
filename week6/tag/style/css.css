@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #9154e8;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.description{
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+#myTable{
+    border-radius: 10px;
+    border: 3px solid #5e136e;
+    vertical-align: middle;
+    margin: 35px auto;
+}
+.game-field{
+    text-align: center;
+    font-size: 20px;
+}
+.game-field input{
+    background-color:  #af81f0;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.game-field input:hover{
+    border: 2px solid #360440;
+    background-color: #dcaae6;
+}
+.game-field button{
+    background-color:  #af81f0;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    transition: .2s all ease;
+}
+.game-field button:hover{
+    border: 3px solid #360440;
+    background-color: #dcaae6;
+    transform: scale(1.4);
+}
+.item{
+    border-radius: 10px;
+    background: #ebb8f5;
+    color: black;
+    border: 2px solid #360440;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s all ease;
+}
+.item:hover{
+    transform: scale(1.1);
+}

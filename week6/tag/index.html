@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tags</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/css.css'>
+    <script src='scripts/main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://cdn.betterttv.net/emote/5d922afbc0652668c9e52ead/3x">
+        <div class="description">
+            <h1>Добро пожаловать в мою игру "Пятнашки"</h1>
+            <p>Цель игры — перемещая костяшки по коробке, добиться упорядочивания их по номерам</p>
+            <p>Чтобы начать играть введите желаемый размер игрового поля и нажмите кнопку "Начать игру". После этого появится 
+                поле, фишки на котором можно перетаскивать с помощью мыши.
+            </p>
+        </div>
+        <div class="game-field">
+            <p><label for="fieldSize">Выбертие размер игрового поля (min 2х2, max 6х6)</label></p>
+            <p><input type="number" min="2" max="6" id="fieldSize" value="4"></p>
+            <p><button id="generateField">Начать игру</button></p>
+            <table id="myTable">
+            </table>
+        </div>
+        <canvas id="myCanvas" width="700" height="400"></canvas>
+    </div>
+</body>
+</html>
